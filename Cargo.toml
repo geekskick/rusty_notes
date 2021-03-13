@@ -1,0 +1,12 @@
+[package]
+name = "diesel_demo"
+version = "0.1.0"
+authors = ["geekskick <geeks_kick@yahoo.co.uk>"]
+edition = "2018"
+
+[dependencies]
+diesel = {version = "1.4.4", features=["sqlite"]}
+dotenv = "0.15.0"
+clap = "*"
+simple_logger = "*"
+log = "*"
